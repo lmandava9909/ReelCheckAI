@@ -5,6 +5,7 @@ databricks-sdk>=0.89.0
 instaloader>=4.14,<5
 openai-whisper
 yt-dlp
+imageio-ffmpeg>=0.5,<1
 tavily-python>=0.5,<1
 requests>=2.31,<3
 pydantic>=2.8,<3

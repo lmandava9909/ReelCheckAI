@@ -39,8 +39,8 @@ class TranscriptCorrector:
                     stem = trusted_word.rstrip('ed')
                     stem_score = fuzz.ratio(word, stem) / 100
                     if max(lexical, stem_score) >= .50 and word != trusted_word:
+                        # Use generic stem-based replacement
                         replacement = stem
-                        if trusted_word.startswith('bann'): replacement = 'ban'
                         pattern = r'\b' + re.escape(word) + r'\b'
                         replaced = re.sub(pattern, replacement, corrected, count=1, flags=re.I)
                         if replaced != corrected:
