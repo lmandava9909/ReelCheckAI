@@ -9,3 +9,6 @@ env:
 
   - name: LAKEBASE_ENDPOINT
     valueFrom: database
+
+  - name: TAVILY_API_KEY
+    valueFrom: tavily
