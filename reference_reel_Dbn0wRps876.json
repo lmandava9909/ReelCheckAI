@@ -1,0 +1,14 @@
+{
+  "url": "https://www.instagram.com/reel/Dbn0wRps876/",
+  "shortcode": "Dbn0wRps876",
+  "caption": "THE U.S. BANNED CHINESE AI EQUIPMENT!",
+  "reference_validation": {
+    "raw_phrase": "Ben Chinese AI equipment",
+    "expected_corrected_phrase": "ban Chinese AI equipment",
+    "historical_transcript_quality": 0.85,
+    "historical_overall_verdict": "Mostly Supported",
+    "historical_risk_score": 41,
+    "historical_claim_count": 2
+  },
+  "note": "Validation target from the original debug workflow; not a substitute for live analysis."
+}
